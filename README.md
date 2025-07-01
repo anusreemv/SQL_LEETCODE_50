@@ -1,0 +1,2 @@
+# SQL_LEETCODE_50
+50 SQL questions
