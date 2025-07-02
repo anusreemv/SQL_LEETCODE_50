@@ -15,15 +15,11 @@
 - `low_fats` indicates whether the product is low fat: `'Y'` for yes, `'N'` for no.
 - `recyclable` indicates whether the product is recyclable: `'Y'` for yes, `'N'` for no.
 
----
-
 ## Problem Statement
 
 Write a SQL query to find the IDs of products that are **both low fat** and **recyclable**.
 
 Return the result table in **any order**.
-
----
 
 ## Example
 
@@ -50,8 +46,6 @@ Return the result table in **any order**.
 
 Only products with `product_id` **1** and **3** are both low fat and recyclable.
 
----
-
 ## SQL Solution
 
 ```sql
@@ -76,15 +70,11 @@ AND recyclable = 'Y'
 - `id` is the primary key for this table.
 - Each row represents a customer and the `referee_id` of the customer who referred them (can be `NULL` if no one referred them).
 
----
-
 ## Problem Statement
 
 Write a SQL query to find the **names of the customers who were _not referred_ by the customer with `id = 2`**.
 
 Return the result table in **any order**.
-
----
 
 ## Example
 
@@ -114,7 +104,6 @@ Return the result table in **any order**.
 
 Only customers **Alex** and **Mark** were referred by customer with `id = 2`. All others should be returned.
 
----
 
 ## SQL Solution
 
